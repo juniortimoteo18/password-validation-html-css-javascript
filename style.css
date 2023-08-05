@@ -68,6 +68,11 @@ body {
 	margin-bottom: 15px;
 }
 
+.requirement-list li.valid i {
+	font-size: 1.2rem;
+	color: #4285F4;
+}
+
 .requirement-list li i {
 	font-size: 0.6rem;
 	color: #aaa;
@@ -76,4 +81,8 @@ body {
 
 .requirement-list li span {
 	margin-left: 12px;
+}
+
+.requirement-list li.valid span {
+	color: #999;
 }
